@@ -19,7 +19,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
 		xb = tuple_b[0]
 		yb = tuple_b[1]
 
-	i = xa + yb
+	i = xa + xb
 	j = ya + yb
 
 	return (i, j)
