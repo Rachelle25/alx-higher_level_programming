@@ -1,17 +1,5 @@
 #!/usr/bin/python3
 
-def best_score(a_dictionary):
+def multiply_list_map(my_list=[], number=0):
 
-    if not a_dictionary:
-
-        return None
-
-    max_v = max(list(a_dictionary.values()))
-
-    for k, v in a_dictionary.items():
-
-        if v == max_v:
-
-            return k
-
-    return None
+    return list(map(lambda x: number * x, my_list))
