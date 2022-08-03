@@ -18,4 +18,4 @@ def read_file(filename=""):
 
         content = f_obj.read()
 
-    print(content)
+    print(content, end="")
