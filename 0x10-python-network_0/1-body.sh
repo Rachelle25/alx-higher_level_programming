@@ -1,3 +1,3 @@
- #!/bin/bash
- #takes in URL and redirects to new locatio
- curl -sL "$1"
+#!/bin/bash
+# takes in URL and redirects to new location
+curl -sL "$1"
