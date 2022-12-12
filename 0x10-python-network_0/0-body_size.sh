@@ -1,3 +1,3 @@
 #!/bin/bash
-# display number of bytes in location
-curl -sI "$1" | grep "Content-Length" | cut -d " " -f 2
+# ends a request to that URL displays the size of the response body
+curl -sI "$1" | grep "Content-Length" | cut -d " " -f2
